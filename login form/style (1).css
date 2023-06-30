@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('montine.jpg');
+    background-size: cover;   
+    background-repeat: no-repeat;
+}
+fieldset{
+    margin: auto;
+    height: 495px;
+    width: 408px;
+    background: rgb(63,215,251);
+     background: linear-gradient(218deg, rgba(63,215,251,0.14889705882352944) 0%, rgba(71,98,103,0.7791491596638656) 100%);;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 10px;
+    border:none;
+
+    
+
+}
+img{
+
+    height: 77px;
+    border-radius: 100%;
+    width:75px; 
+     
+}
+legend{
+    text-align:center;
+}
+.container{
+    margin-top: 40px;
+    position: absolute;
+}
+.usemai{
+    
+   width: 231px;
+   padding: 10px 0px 10px 40px;
+   border-radius: 8px;
+   border: none;
+   margin-bottom: 20px;
+   outline: none;
+   position: relative;
+   top: 10px;
+   left: 50px;
+
+}
+.container-1{
+position:absolute;
+}
+.userpad{
+    width: 231px;
+    padding: 10px 0px 10px 40px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    outline: none;
+    position: relative;
+    top: 100px;
+    left: 32px;
+}
+.i1{
+    position: relative;
+    top: 11px;
+    z-index: 1;
+    left: 77px;
+}
+.i2{
+    position:relative;
+    left: 78px;
+    top: 102px;
+    z-index: 1;
+
+}
+.i3{
+    
+    position:relative;
+    left: 259px;
+    top: 102px;
+    z-index: 1;
+}
+.userpad:focus{
+    box-shadow: 0 0 30px black;
+}
+.usemai:focus{
+    box-shadow: 0 0 30px black;
+}
+.con-2{
+    width: fit-content;
+    font-size: 20px;
+    top:150px;
+    left: 87px;
+    position: relative;
+}
+.con-2 a{
+    text-decoration: none;
+    color:rgb(61, 206, 239);
+}
+.con-2 a:hover{
+    color:rosybrown;
+}
+.con3{
+    position: relative;
+    top:220px;
+    
+}
+ .con3 button{
+    width: 272px;
+   height: 35px;
+    border-radius: 8px;
+    border: none;
+    background-color:rgb(79, 180, 203);
+    font-size: 15px;
+    
+
+  
+ }
+ .con3 button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+ }
+p{
+    font-size: 30px;
+    top:20px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+   
+}
+.con3 button:focus{
+box-shadow: 0 0 30px black;
+}

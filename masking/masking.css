@@ -1,0 +1,39 @@
+h1
+{
+    
+    text-align: center;
+    box-sizing:border-box;
+    font-size:50px;
+    color: crimson;
+
+}
+.mb{
+    background-image:url("imageback.jpeg");
+    background-clip: border-box;
+    padding: 15px;
+    border:5px dotted black;
+}
+ .mb2
+ {
+    background-image:url("imageback.jpeg");
+    background-clip: content-box;
+    padding:15px;
+    border:5px dotted black;
+ }
+ .mb3
+ {
+    background-image:url("imageback.jpeg");
+    padding:15px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    border:5px dotted black;
+ }
+ .t{
+   color: transparent;
+ }
+
+ .mb4{
+   background-image:url("imageback.jpeg");
+   background-clip: padding-box;
+   border:5px dotted black;
+ }

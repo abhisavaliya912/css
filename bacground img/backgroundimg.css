@@ -1,0 +1,11 @@
+body{  
+  background-color: white;
+  background-image:url("corbmari.png"),url("bc3.jpg");
+  background-repeat: no-repeat,no-repeat;
+  background-attachment: fixed;
+  color: white;
+  background-size:400px,100%;
+  background-position:bottom right;
+  background-blend-mode:multiply;
+  
+}

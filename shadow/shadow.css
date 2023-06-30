@@ -1,0 +1,10 @@
+h1{
+    text-shadow: 5px 5px 5px lightblue;
+}
+.sd{
+ border:5px solid black;
+ height: 400px;
+ width: 600px;
+ box-shadow: 5px 5px 10px red, 10px 10px blue,15px 15px pink, 20px 20px green, 25px 25px yellow,30px 30px navajowhite,35px 35px lightslategrey;
+
+}

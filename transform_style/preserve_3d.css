@@ -1,0 +1,161 @@
+ .main{
+    max-width: 1140px;
+    margin: auto;
+}
+.row{
+    margin-top: 12px;
+}
+.tr{
+    height: 300px;
+    width: 300px;
+    margin: 24px auto 48px auto;
+    perspective: 700px;
+}
+.tr a{
+    height: 100%;
+    width: 100%;
+    background: url(pr.1.jpg);
+    background-size: cover;
+    transform: rotatex(40deg);
+     transform-style: preserve-3d; 
+    transition: all 2s;
+    display: block;   
+}
+
+.tr a:hover{
+    transform: rotatex(10deg);
+     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+
+}
+.tr a::after{
+     content: '';  
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    transform: rotatex(90deg);
+    transform-origin: bottom;
+    background: linear-gradient(166deg, rgba(2,0,36,1) 0%, rgba(168,141,107,1) 100%);
+}
+/* .main1{
+  max-width: 1140px;
+  margin: auto;
+}
+.row1{
+margin-top: 15px;
+}
+.td{
+  height:400px;
+  width:500px;
+  margin:100px;
+  perspective: 700px;
+  /* transition: all 1s;
+   */
+}
+.td a{
+  height: 100%;
+  width: 100%;
+  background: url(img.jpg);
+  display: block;
+  background-size: cover;
+  transform: rotate(90deg);
+  transform-style: preserve-3d;
+   transition: all 1s;
+}
+.td a:hover{
+ transform: rotate(800deg);
+ background: url(tiger.jpeg);
+}
+ 
+.td a::after{
+  content: '';  
+ position: absolute;
+ left:0;
+ bottom: 0;
+ width: 100%;
+ height: 40px;
+ transform: rotatex(90deg);
+ transform-origin: bottom;
+ background: linear-gradient(166deg, rgba(2,0,36,1) 0%, rgba(168,141,107,1) 100%);
+} 
+
+
+
+.main3 a{
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  margin:auto;
+  color:#fff;
+  background-color: #1abc9c;
+  height: 80px;
+  width: 200px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px 5px;
+  padding: 15px;
+  box-shadow:  3px 3px red, -1em 0 .4em olive;
+  transition: all 0.2s ease;
+  font-style: italic;
+}
+a:hover
+{
+  box-shadow: none;
+  top:10px;
+}
+
+.main4{
+  margin: auto;
+}
+ 
+.iron{
+  height: 500px;
+  width:600px;
+  margin:100px;
+  perspective: 700px; 
+}
+
+.iron a{
+  height: 500px;
+  width: 400px;
+  background-image: url(iron.jpg);
+  display: block;
+  background-size: cover;
+ 
+  transform-style: preserve-3d;
+  transform: rotatex(40deg);
+
+}
+
+
+.iron a:hover{
+  /* transform: translate(100px 500px); */
+  /* height: 100%;
+  width: 100%; */
+   transform: rotatex(10deg);
+   /* transform-origin: bottom; */
+} 
+/* .iron a:hover{
+ 
+   transform: scale(6, 6);
+} */
+/* .iron a:hover{
+ 
+   transform: skewy(60deg);
+
+} */
+.iron a::after{
+  content: '';  
+ position: absolute;
+ left:0;
+ bottom: 0;
+ width: 100%;
+ height: 40px;
+ transform: rotatex(90deg);
+ transform-origin: bottom;
+ background: linear-gradient(166deg, rgba(2,0,36,1) 0%, rgba(168,141,107,1) 100%);
+} */

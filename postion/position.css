@@ -1,0 +1,41 @@
+.box{
+    height: 250px;
+    width: 300px;
+    border: 2px solid blue;
+    float: left;
+    margin: 14px;
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px
+}
+p{
+    font-size: 30px;
+}
+.pos1{
+    position: fixed;
+}
+.pos2{
+    position: relative;
+    top:30px;
+    left: 90px;
+    border-color: black;
+}
+.pos3{
+    position:absolute;
+    top:90px;
+    left: 200px;
+    border-color: red;
+}
+.pos4{
+    position: sticky;
+    top:90px;
+    left: 200px;
+    border-color:green;
+}
+.pos5{
+    position: static;
+    top:90px;
+    left: 200px;
+    border-color:burlywood;
+}
+

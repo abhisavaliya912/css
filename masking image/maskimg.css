@@ -1,0 +1,20 @@
+img{
+    height: 400px;
+    width: 700px;
+}
+.masking{
+    mask-image: url('logo.png');
+    -webkit-mask-image: url('logo.png');
+     mask-size:30%;
+    -webkit-mask-size:30%;
+     mask-repeat: NO-repeat; 
+    -webkit-mask-repeat:NO-repeat;
+     /* mask-origin: border-box;  */
+     /* -webkit-mask-origin: border-box;  */
+     /* border:10px solid red;  */
+     mask-origin: content-box; 
+    -webkit-mask-origin: content-box;
+     /* padding: 10px; */
+     /* margin: 20PX; */
+
+}

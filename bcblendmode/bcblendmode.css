@@ -1,0 +1,20 @@
+.txt1{
+    /*background-image: conic-gradient(red,orange,yellow,green,blue,indigo,violet);*/
+    /* background-image: radial-gradient(red,orange,yellow,green,blue,indigo,violet);*/
+    background-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+    height: 500px;
+    width: 20%;
+    border: 5px solid  black;
+    padding-top: 180px;
+    margin:auto;
+    margin-top: 450PX;
+    box-sizing: border-box;
+
+    
+
+}
+
+.txt2{
+    text-align: center;
+    color:blanchedalmond;
+}

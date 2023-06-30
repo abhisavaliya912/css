@@ -1,0 +1,30 @@
+.ov{
+    height: 500px;
+    width: 80%;
+    border: 2px solid black;
+    overflow: scroll;
+    /* overflow: hidden; */
+    /* overflow: visible; */
+}
+
+img{
+    height: 200px;
+    width: 300px;
+}
+.z1{
+    position: absolute;
+    z-index: -1;
+}
+.z2{
+    position: relative;
+    z-index: 1;
+    left: 200px;
+    top: 80px;
+}
+.z3{
+    position: relative;
+    z-index: 2;
+    left: 40px;
+    top:180px ;
+}
+

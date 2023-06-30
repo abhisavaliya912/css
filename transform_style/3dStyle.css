@@ -1,0 +1,24 @@
+.row{
+    border-radius: 1cm;
+    perspective: 600px;
+    box-shadow:  0 0.125em 0.3125em rgba(0, 0, 0, 0.25),
+    0 0.02125em 0.06125em rgba(0, 0, 0, 0.25);
+    background: #333232;
+}
+.row::before{
+    
+
+    width: 100%;
+    height: 50%;
+    border-radius: 0 0 1cm 1cm;
+    transform-origin: center top;
+    transform: rotateX(180px);
+    background:#333232 linear-gradient(180deg,
+    rgba(0, 0, 0, 0.1) 50%,
+    rgba(0, 0, 0, 0.4));
+    transition: 0.7s ease-in-out transform;
+        
+}
+ .row:hover::before{
+    transform: rotateX(0px);
+}

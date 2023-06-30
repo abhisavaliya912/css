@@ -1,0 +1,46 @@
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    border:2px solid black;
+    transform: translate(20px,20px);
+}
+.box1{
+    margin:100px;
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    border:2px solid black;
+    transform: rotate(30deg);
+   
+}
+
+.box2{
+    margin:100px;
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    border:2px solid black;
+    /* transform: skewx(40deg); */
+    transform: skewy(40deg);
+   
+}
+.box3{
+    margin:100px;
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    border:2px solid black;
+    transform: scale(2,3);
+   
+}
+.box4{
+    margin:100px;
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    border:2px solid black;
+    transform-origin:center 90% 100%;
+    transform: skew(20deg);
+   
+}

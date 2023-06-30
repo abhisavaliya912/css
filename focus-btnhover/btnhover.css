@@ -1,0 +1,21 @@
+body{
+    margin:100px;
+}
+#name:focus{
+    background-color: blueviolet;
+    border: 5px solid blue; 
+}
+.main{
+    margin:50px;
+    padding: 20px;
+}
+.btnsave:hover{
+    border:2px solid green;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.btnsave:hover::after{
+    font: var(--fa-font-solid);
+    content: ' \f0f8';
+    position: relative;
+}

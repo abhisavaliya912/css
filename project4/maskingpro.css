@@ -1,0 +1,18 @@
+img{
+    height: 800px;
+    width: 1200px;
+}
+.a1
+{
+    margin: 40px;;
+   mask-image:url('butter.png');
+   -webkit-mask-image:url('butter.png');
+    mask-size: 30%; 
+   -webkit-mask-size: 30%; 
+   mask-repeat: no-repeat;
+   -webkit-mask-repeat: no-repeat;
+   mask-origin: margin-box;
+  -webkit-mask-origin: margin-box;
+  mask-position: center;
+  -webkit-mask-position: center;
+}

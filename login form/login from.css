@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+fieldset{
+    margin: auto;
+    width: 350px;
+    height: 480px;
+    border-radius: 10px;
+    margin-top: 80px;
+    border: ;
+    text-align: center;
+    align-items: center;
+
+}
+legend{
+    text-align: center;
+}
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.box1{
+    margin-top:80px;
+    position: relative;
+}
+.mail{
+    height: 35px;
+    border-radius: 8px;
+   /* border: none; */
+    padding: 10px 0 10px 30px;
+
+}
+.i1{
+    position: absolute;
+    font-size: 18px;
+     left:80px;
+     top:8px
+}
+.box2{
+    margin-top: 30px;
+    position: relative;
+}
+.pwd{
+    height: 35px;
+    border-radius: 8px;
+    padding: 10px 0 10px 30px;
+}
+.i2{
+    position: absolute;
+    font-size:18px;
+    left:80px;
+    top:8px;
+
+}
+.i3{
+    position: absolute;
+    font-size: 18px;
+    left:240px;
+    top:8px;
+}
